@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        notable: ['"Notable"']
+        notable: ['"Notable"'],
+        philosopher: ['"Philosopher"']
       }
     },
   },
