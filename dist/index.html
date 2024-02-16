@@ -13,30 +13,28 @@
     <body>
         <!-- Sticky Nav Bar Section-->
         <div>
-            <header class="flex flex-col sticky top-0  py-2">
-                <div class="flex justify-center">
-                    <h1 class="font-notable text-6xl">
+            <header class="flex flex-row justify-evenly sticky top-0 py-2">
+                <div>
+                    <h1 class="pl-3 font-notable text-6xl flex-auto justify-center">
                         Ivan Flores
                     </h1>
                 </div>
-                <nav class="flex flex-row justify-evenly py-2">
-                    <div>
-                        <a href="https://github.com/I-F-33"><img class="max-w-16 max-h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../images/github.png" alt="Ivan's Github"></a>
-                    </div>
-                    <div>
-                        <a href="https://www.linkedin.com/in/ivan-flores-548753176/"><img class="max-w-16 max-h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../images/linkedin.png" alt="Ivan's linkedin"></a>
-                    </div>
-                    <div>
-                        <a href=""><img class="max-w-16 max-h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../images/cv.png" alt="Ivan's Resume"></a>
-                    </div>
-                    <div>
-                        <a href=""><img class="max-w-16 max-h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../images/contact.png" alt="Contact Ivan"></a>
-                    </div>
-                </nav>
+                <div class="flex justify-center flex-auto">
+                    <a href="https://github.com/I-F-33"><img class="max-w-16 max-h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../images/github.png" alt="Ivan's Github"></a>
+                </div>
+                <div class="flex justify-center flex-auto">
+                    <a href="https://www.linkedin.com/in/ivan-flores-548753176/"><img class="max-w-16 max-h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../images/linkedin.png" alt="Ivan's linkedin"></a>
+                </div>
+                <div class="flex justify-center flex-auto">
+                    <a href=""><img class="max-w-16 max-h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../images/cv.png" alt="Ivan's Resume"></a>
+                </div>
+                <div class="flex justify-center flex-auto">
+                    <a href=""><img class="max-w-16 max-h-16 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300" src="../images/contact.png" alt="Contact Ivan"></a>
+                </div>
             </header>
         </div>
         <!-- Elevator Section-->
-        <div class="flex flex-row justify-center mt-20">
+        <div class="flex flex-row justify-center mt-20 pb-32">
             <div>
                 <img class="ml-36 rounded-lg max-h-96 max-w-96 shadow-2xl" src="../images/ProfilePic.jpeg" alt="Ivan Flores">
             </div>
@@ -53,10 +51,59 @@
         <!-- Projects Section-->
         <div>
             <div class="justify-center">
-                <h1 class="text-center text-4xl font-notable mt-20">
+                <h1 class="text-center text-5xl font-notable mt-20 pb-36">
                     Projects
                 </h1>
             </div>
-        </div>
+        
+            
+            <div class="grid grid-cols-3 grid-rows-1 gap-12 justify-center pl-24">
+            
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">C++: SQL Database Built From Scratch</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Developed as a project for my Data Structures an Algorithm course, this console project utlilizes data structures such as B-Tree's, Linked Lists, Stacks, and Queues built from scrach down to the initial node. Algorithms implemented include Reverse Polish Notation, and Shunting Yard. A much enjoyed challenge.</p>
+                    <a href="https://github.com/I-F-33/SQL-Database-from-scratch-" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Check it out on GitHub
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Java: Stock and Crypto Portfolio Tracker</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Built on the Spring Framework, this passion project was an introduction to Full-Stack Development. This project utilizes Alphavantage's financial API and a MYSQL Database. The frontend was built on HTML, CSS, JS, and AnyChart.js.</p>
+                    <a href="https://github.com/I-F-33/To_The_Moon_Portfolio_Tracker" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Check it out on GitHub
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+
+                <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
+                    <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Read more
+                        <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
+                        </svg>
+                    </a>
+                </div>
+
+            </div>
+        </div>  
+
+    
     </body>
 </html>
