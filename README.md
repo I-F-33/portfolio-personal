@@ -2,3 +2,4 @@
 - Email: flores33@csu.fullerton.edu
 - Languages used: HTML, CSS, JavaScript
 - Frameworks used: TailwindCSS
+- Development model used: Waterfall
