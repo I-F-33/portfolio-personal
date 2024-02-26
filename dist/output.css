@@ -559,7 +559,6 @@ video {
 .pointer-events-none {
   pointer-events: none;
 }
-
 .fixed {
   position: fixed;
 }
@@ -671,22 +670,6 @@ video {
   margin-top: 5rem;
 }
 
-.ml-32 {
-  margin-left: 8rem;
-}
-
-.ml-40 {
-  margin-left: 10rem;
-}
-
-.mt-32 {
-  margin-top: 8rem;
-}
-
-.mt-60 {
-  margin-top: 15rem;
-}
-
 .block {
   display: block;
 }
@@ -763,11 +746,6 @@ video {
   width: 100%;
 }
 
-.w-max {
-  width: -moz-max-content;
-  width: max-content;
-}
-
 .max-w-16 {
   max-width: 4rem;
 }
@@ -792,11 +770,6 @@ video {
   max-width: 36rem;
 }
 
-.max-w-max {
-  max-width: -moz-max-content;
-  max-width: max-content;
-}
-
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -807,30 +780,6 @@ video {
 
 .basis-2\/4 {
   flex-basis: 50%;
-}
-
-.basis-0 {
-  flex-basis: 0px;
-}
-
-.basis-11\/12 {
-  flex-basis: 91.666667%;
-}
-
-.basis-3\/12 {
-  flex-basis: 25%;
-}
-
-.basis-5\/12 {
-  flex-basis: 41.666667%;
-}
-
-.basis-8\/12 {
-  flex-basis: 66.666667%;
-}
-
-.basis-full {
-  flex-basis: 100%;
 }
 
 .-translate-x-1\/2 {
@@ -900,10 +849,6 @@ video {
 
 .justify-center {
   justify-content: center;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .justify-evenly {
@@ -997,11 +942,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-slate-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(248 250 252 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-tr {
@@ -1109,10 +1049,6 @@ video {
 
 .pt-36 {
   padding-top: 9rem;
-}
-
-.pb-11 {
-  padding-bottom: 2.75rem;
 }
 
 .text-center {
@@ -1326,21 +1262,6 @@ video {
   background-color: rgb(99 102 241 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-slate-500:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-slate-200:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
-}
-
-.hover\:bg-slate-300:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(203 213 225 / var(--tw-bg-opacity));
-}
-
 .hover\:shadow-2xl:hover {
   --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
@@ -1376,11 +1297,6 @@ video {
 .focus\:ring-indigo-600:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(79 70 229 / var(--tw-ring-opacity));
-}
-
-.focus\:ring-slate-500:focus {
-  --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(100 116 139 / var(--tw-ring-opacity));
 }
 
 .focus-visible\:outline:focus-visible {
