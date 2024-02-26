@@ -1,5 +1,5 @@
-# [Personal Portfolio](ivan-flores.com)
-## [Ivan-flores.com](ivan-flores.com)
+# [Personal Portfolio](www.ivan-flores.com)
+## [Ivan-flores.com](www.ivan-flores.com)
 ## Ivan Flores, CWID: 889785333, Email: flores33@csu.fullerton.edu
 ### Programming languages used:
 - HTML
